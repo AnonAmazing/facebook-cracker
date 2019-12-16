@@ -67,7 +67,8 @@ def welcome():
         +=========================================+
         |..........   Facebook Crack   ...........|
         +-----------------------------------------+
-        |            #Author: Ha3MrX              | 
+        |            #Author: Ha3MrX              |
+       Copyright © 2019 Ha3MrX. All Rights Reserved. 
         |	       Version 1.0                |
  	|   https://www.youtube.com/c/HA-MRX      |
         +=========================================+
@@ -77,7 +78,7 @@ def welcome():
 	total = open(passwordlist,"r")
 	total = total.readlines()
 	print (wel)
-	print " [*] Account to crack : {}".format(email)"
+	print " [*] Account to crack : {}"."format(email)"
 	print " [*] Loaded :" , len(total), "passwords"
 	print " [*] Cracking, please wait ...\n\n"
 
